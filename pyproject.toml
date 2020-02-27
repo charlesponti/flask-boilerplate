@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "root"
+version = "0.0.0"
+description = "a REST api"
+authors = ["Charles Ponti <cj@ponti.io>"]
+
+[tool.poetry.dependencies]
+python = "==3.8"
+flask = "*"
+gunicorn = "*"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
