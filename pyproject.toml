@@ -8,6 +8,7 @@ authors = ["Charles Ponti <cj@ponti.io>"]
 python = "==3.8"
 flask = "*"
 gunicorn = "*"
+python-dotenv = "^0.11.0"
 
 
 [build-system]

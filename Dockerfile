@@ -17,6 +17,3 @@ RUN pip install -r requirements.txt
 
 # assign app to FLASK_APP
 ENV FLASK_APP=app
-
-# run flask app
-CMD flask run

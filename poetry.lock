@@ -74,6 +74,17 @@ version = "1.1.1"
 
 [[package]]
 category = "main"
+description = "Add .env support to your django/flask apps in development and deployments"
+name = "python-dotenv"
+optional = false
+python-versions = "*"
+version = "0.11.0"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
+category = "main"
 description = "The comprehensive WSGI web application library."
 name = "werkzeug"
 optional = false
@@ -85,8 +96,8 @@ dev = ["pytest", "coverage", "tox", "sphinx", "pallets-sphinx-themes", "sphinx-i
 watchdog = ["watchdog"]
 
 [metadata]
-content-hash = "c4ed997bc154cd1dd8925a76168e2ff42e970b569a968ee4392adbe918a1eb81"
-python-versions = "==3.7"
+content-hash = "2d21c87bbee85f357791c708954b9501d12b02e1ffc4cf3f75603c390b1a2402"
+python-versions = "==3.8"
 
 [metadata.files]
 click = [
@@ -143,6 +154,10 @@ markupsafe = [
     {file = "MarkupSafe-1.1.1-cp38-cp38-win32.whl", hash = "sha256:596510de112c685489095da617b5bcbbac7dd6384aeebeda4df6025d0256a81b"},
     {file = "MarkupSafe-1.1.1-cp38-cp38-win_amd64.whl", hash = "sha256:e8313f01ba26fbbe36c7be1966a7b7424942f670f38e666995b88d012765b9be"},
     {file = "MarkupSafe-1.1.1.tar.gz", hash = "sha256:29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"},
+]
+python-dotenv = [
+    {file = "python-dotenv-0.11.0.tar.gz", hash = "sha256:8429f459fc041237d98c9ff32e1938e7e5535b5ff24388876315a098027c3a57"},
+    {file = "python_dotenv-0.11.0-py2.py3-none-any.whl", hash = "sha256:ca9f3debf2262170d6f46571ce4d6ca1add60bb93b69c3a29dcb3d1a00a65c93"},
 ]
 werkzeug = [
     {file = "Werkzeug-1.0.0-py2.py3-none-any.whl", hash = "sha256:6dc65cf9091cf750012f56f2cad759fa9e879f511b5ff8685e456b4e3bf90d16"},
